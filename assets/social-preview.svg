@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-labelledby="title desc">
+  <title id="title">LabMail — local signup automation laboratory</title>
+  <desc id="desc">A safe local lab for studying browser automation and anti-bot detection.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#111827"/><stop offset="1" stop-color="#1d4ed8"/></linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffffff" stop-opacity=".18"/><stop offset="1" stop-color="#ffffff" stop-opacity=".06"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#020617" flood-opacity=".35"/></filter>
+  </defs>
+  <rect width="1280" height="640" fill="url(#bg)"/>
+  <circle cx="1130" cy="65" r="230" fill="#38bdf8" opacity=".12"/><circle cx="75" cy="590" r="250" fill="#a78bfa" opacity=".12"/>
+  <g transform="translate(88 92)">
+    <rect width="74" height="74" rx="18" fill="#38bdf8"/>
+    <path d="M21 24h32a7 7 0 0 1 7 7v37H14V31a7 7 0 0 1 7-7Zm0 10v24l16-10 16 10V34H21Z" fill="#0f172a"/>
+    <circle cx="52" cy="62" r="8" fill="#a78bfa" stroke="#0f172a" stroke-width="4"/>
+  </g>
+  <text x="88" y="238" fill="#fff" font-family="Inter,Segoe UI,sans-serif" font-size="68" font-weight="800">LabMail</text>
+  <text x="92" y="292" fill="#bfdbfe" font-family="Inter,Segoe UI,sans-serif" font-size="27" font-weight="500">Local signup automation laboratory</text>
+  <text x="92" y="354" fill="#e0f2fe" font-family="Inter,Segoe UI,sans-serif" font-size="22">Playwright · TypeScript · anti-bot observability</text>
+  <g transform="translate(92 428)">
+    <rect width="315" height="58" rx="29" fill="#fff" opacity=".14"/>
+    <text x="28" y="37" fill="#fff" font-family="Inter,Segoe UI,sans-serif" font-size="19" font-weight="700">100% localhost-only</text>
+  </g>
+  <g transform="translate(770 120)" filter="url(#shadow)">
+    <rect width="392" height="360" rx="18" fill="url(#panel)" stroke="#fff" stroke-opacity=".22"/>
+    <text x="30" y="44" fill="#e0f2fe" font-family="monospace" font-size="16">ANTI-BOT DASHBOARD</text>
+    <rect x="30" y="70" width="332" height="58" rx="9" fill="#0f172a" opacity=".55"/>
+    <text x="50" y="106" fill="#fbbf24" font-family="monospace" font-size="17">risk score 110 / blocked</text>
+    <rect x="30" y="150" width="332" height="14" rx="7" fill="#0f172a" opacity=".55"/><rect x="30" y="150" width="245" height="14" rx="7" fill="#38bdf8"/>
+    <text x="30" y="205" fill="#cbd5e1" font-family="monospace" font-size="15">✓ webdriver_flag</text>
+    <text x="30" y="240" fill="#cbd5e1" font-family="monospace" font-size="15">✓ headless_ua</text>
+    <text x="30" y="275" fill="#cbd5e1" font-family="monospace" font-size="15">✓ rate_limit</text>
+    <rect x="30" y="305" width="112" height="28" rx="14" fill="#22c55e" opacity=".85"/><text x="51" y="324" fill="#052e16" font-family="monospace" font-size="13" font-weight="700">LOCAL LAB</text>
+  </g>
+</svg>

@@ -1,0 +1,19 @@
+{
+  "name": "signup-bot-lab",
+  "private": true,
+  "type": "module",
+  "description": "Local lab: mock multi-step signup site with anti-bot detection, plus a Playwright bot to study both sides.",
+  "engines": { "node": ">=23.6" },
+  "scripts": {
+    "server": "node src/server/index.ts",
+    "bot": "node src/bot/index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "playwright": "^1.48.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^5.7.0"
+  }
+}
