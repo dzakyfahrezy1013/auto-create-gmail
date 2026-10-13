@@ -1,6 +1,6 @@
 # LabMail
 
-![LabMail social preview](assets/social-preview.svg)
+![LabMail social preview](assets/social-preview.png)
 
 > Laboratorium lokal untuk mempelajari otomasi browser dan observability anti-bot — aman, reproducible, dan tidak menyentuh Google.
 
